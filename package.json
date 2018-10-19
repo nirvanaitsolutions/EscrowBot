@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "STEEM/SBD exchange bot for Discord",
   "scripts": {
-    "start": "npm run build && node dist/bot.js",
+    "start": " node dist/bot.js",
     "dev": "nodemon src/bot.js --exec babel-node",
     "clean": "rimraf dist",
     "build": "npm run clean && babel src -s -d dist --source-maps false"
