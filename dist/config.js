@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _dotenv2.default.config();
 
 const config = {
-  OWNER_ID: '502846572237946890', // Discord user ID of owner
+  OWNER_ID: '372663611098660864', // Discord user ID of owner
   STEEM_ACCOUNT: process.env.STEEM_ACCOUNT,
   ACTIVE_KEY: process.env.ACTIVE_KEY,
   BOT_TOKEN: process.env.BOT_TOKEN,
